@@ -37,12 +37,6 @@ function removeClassNormalBrown(el){
 	el.classList.remove("brown");
 }
 
-
-function popupBox(el) {
-  var popup = document.getElementById("clickMe");
-  popup.classList.toggle("show");
-}
-
 function showThumb(el){
 	document.getElementById('1Col').src = "image/thumbs_up.png";
 	document.getElementById('col').classList.add("oceanblue");
