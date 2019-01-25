@@ -1,0 +1,75 @@
+/* Make sure you specify a "height: 100vh", "width: 100vw", and "margin: 0" for all your pages */
+body {
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	display: flex;
+}
+
+/* You should know what the class does just by looking at the name (the name should be DESCRIPTIVE) */
+.partial-column {
+	height: 100%;
+	width: 25%;
+}
+.full-column {
+	height: 100%;
+	width: 75%;
+}
+.box-div {
+	height: 50%;
+	width: 100%;
+}
+.partial-box-div {
+	height: 100%;
+	width: 50%;
+}
+.tan {
+	background-color: #453137;
+}
+
+.red {
+	background-color: #915554;
+}
+.blue {
+	background-color: #35547b;
+}
+.orange {
+	background-color: #ae624a;
+}
+.brown {
+	background-color: #453137;
+}
+
+.thumbsup {
+	content: url("image/thumbs_up.png");
+}
+
+/* Use this class on the PARENT of whatever you are trying to center; remember that the PARENT tells the CHILD what to do! */
+/* NOTE: Centering content only works when the display property is "flex"! */
+.center-content {
+	align-items: center;
+	justify-content: center;
+	display:flex;
+}
+
+/* Use this class on your image to restrict the size so it stays completely within it's parent div */
+.restrict-img-size {
+	max-height: 75%;
+	max-width: 75%;
+}
+
+.oceanred {
+	background-color: #ea7070;
+}
+.oceantan {
+	background-color: #fdc4b6;
+}
+.oceanorange {
+	background-color: #e59572;
+}
+.oceandarkblue {
+	background-color: #2694ab;
+}
+.oceanblue {
+	background-color: #4dbedf;
+}

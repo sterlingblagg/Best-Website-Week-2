@@ -1,0 +1,42 @@
+<!-- notice how both the opening <html> tag and the closing </html> tag are NOT indented so you can clearly see the start and end of the code -->
+<!DOCTYPE html>
+<html>
+	
+	<!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Wireframe H</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<!-- the <body> section is for all the content that is actually displayed on the page -->
+	<body>	
+		<div class="partial-column red center-content" id="col">
+			<img src="image/space.png" id="1Col" class="restrict-img-size" onclick="showThumb(this)">
+		</div>
+		<div class="full-column tan" id="col2">
+			<div class="box-div blue center-content">
+				<div class="partial-box-div orange" id="col3"></div>
+				<div class="partial-box-div red" id="col4">
+					<div class="box-div blue center-content" id="col5">
+						<div class="partial-box-div red center-content" id="col6">
+							<img src="image/turkey.png" class="restrict-img-size">
+						</div>
+						<div class="partial-box-div brown" id="col7"></div>
+					</div>
+					<div class="box-div brown center-content" id="col8">
+						<div class="partial-box-div tan" id="col9"></div>
+						<div class="partial-box-div blue center-content" id="col10">
+							<img src="image/food.png" class="restrict-img-size">
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="box-div brown center-content" id="col11">
+				<img src="image/boss_key.gif" class="restrict-img-size">
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
